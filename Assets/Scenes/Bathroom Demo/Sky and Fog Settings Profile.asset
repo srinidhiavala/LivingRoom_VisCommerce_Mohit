@@ -49,10 +49,6 @@ MonoBehaviour:
   includeSunInBaking:
     m_OverrideState: 0
     m_Value: 0
-  m_SkyVersion: 1
-  m_ObsoleteEarthPreset:
-    m_OverrideState: 0
-    m_Value: 1
   type:
     m_OverrideState: 0
     m_Value: 1
@@ -180,6 +176,10 @@ MonoBehaviour:
     m_Value: 0
     min: -1
     max: 1
+  m_SkyVersion: 1
+  m_ObsoleteEarthPreset:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &-6747955607790289559
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -211,11 +211,11 @@ MonoBehaviour:
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 3.287727
+    m_Value: 3.111567
     min: 0
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.45139882, y: 0.4799727, z: 0.5}
+    m_Value: {x: 0.3536771, y: 0.45292005, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 1
     m_Value: 20000
@@ -231,7 +231,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 94a67877ce0e321468f7b16118451982, type: 3}
+    m_Value: {fileID: 8900000, guid: 48fee2a013b2c004eb20df996f9c6b4b, type: 3}
   enableDistortion:
     m_OverrideState: 1
     m_Value: 0
@@ -419,9 +419,6 @@ MonoBehaviour:
     min: 0
     max: 1
   directionalLightsOnly:
-    m_OverrideState: 0
-    m_Value: 0
-  filter:
     m_OverrideState: 0
     m_Value: 0
 --- !u!114 &11400000

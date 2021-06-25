@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.66370106, g: 0.9261832, b: 1.4707079, a: 1}
+  m_IndirectSpecularColor: {r: 4387.7344, g: 2527.7305, b: 1123.4365, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2025,6 +2025,405 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190678087}
   m_Mesh: {fileID: 2844388902192290656, guid: a3a05402aba84a54d8bb92fb18f6514e, type: 3}
+--- !u!1 &203042179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203042181}
+  - component: {fileID: 203042180}
+  m_Layer: 0
+  m_Name: Planar Reflection (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &203042180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203042179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ee7c3a3b205a14a94094d01ff91d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ProbeSettings:
+    frustum:
+      fieldOfViewMode: 1
+      fixedValue: 90
+      automaticScale: 1
+      viewerScale: 1
+    type: 1
+    mode: 1
+    realtimeMode: 0
+    lighting:
+      multiplier: 1
+      weight: 1
+      lightLayer: 1
+      fadeDistance: 10000
+      rangeCompressionFactor: 1
+    influence:
+      m_Shape: 0
+      m_BoxSize: {x: 1.1338376, y: 0.19148302, z: 1.9877975}
+      m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+      m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 0.6140579
+      m_SphereBlendDistance: 0
+      m_SphereBlendNormalDistance: 0
+      m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendDistance: 0
+      m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendNormalDistance: 0
+      m_EditorAdvancedModeEnabled: 0
+      m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+      m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+      m_Version: 1
+      m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+      m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+    proxy:
+      m_Shape: 0
+      m_BoxSize: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 1
+      m_CSVersion: 1
+      m_ObsoleteSphereInfiniteProjection: 0
+      m_ObsoleteBoxInfiniteProjection: 0
+    proxySettings:
+      useInfluenceVolumeAsProxyVolume: 0
+      capturePositionProxySpace: {x: 0, y: 0, z: 0}
+      captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
+      mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
+      mirrorRotationProxySpace: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
+    resolutionScalable:
+      m_Override: 512
+      m_UseOverride: 1
+      m_Level: 2
+    resolution: 0
+    cameraSettings:
+      customRenderingSettings: 0
+      renderingPathCustomFrameSettings:
+        bitDatas:
+          data1: 72198262773251917
+          data2: 13763000468760363032
+        lodBias: 1
+        lodBiasMode: 0
+        lodBiasQualityLevel: 0
+        maximumLODLevel: 0
+        maximumLODLevelMode: 0
+        maximumLODLevelQualityLevel: 0
+        sssQualityMode: 0
+        sssQualityLevel: 0
+        sssCustomSampleBudget: 20
+        materialQuality: 0
+      renderingPathCustomFrameSettingsOverrideMask:
+        mask:
+          data1: 0
+          data2: 0
+      bufferClearing:
+        clearColorMode: 0
+        backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+        clearDepth: 1
+      volumes:
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 1
+        anchorOverride: {fileID: 0}
+      frustum:
+        mode: 0
+        aspect: 1
+        farClipPlaneRaw: 1000
+        nearClipPlaneRaw: 0.3
+        fieldOfView: 90
+        projectionMatrix:
+          e00: 1
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 1
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 1
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+      culling:
+        useOcclusionCulling: 1
+        cullingMask:
+          serializedVersion: 2
+          m_Bits: 2147483647
+        sceneCullingMaskOverride: 0
+      invertFaceCulling: 0
+      flipYMode: 0
+      probeLayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      defaultFrameSettings: 0
+      m_ObsoleteRenderingPath: 0
+      m_ObsoleteFrameSettings:
+        overrides: 0
+        enableShadow: 0
+        enableContactShadows: 0
+        enableShadowMask: 0
+        enableSSR: 0
+        enableSSAO: 0
+        enableSubsurfaceScattering: 0
+        enableTransmission: 0
+        enableAtmosphericScattering: 0
+        enableVolumetrics: 0
+        enableReprojectionForVolumetrics: 0
+        enableLightLayers: 0
+        enableExposureControl: 1
+        diffuseGlobalDimmer: 0
+        specularGlobalDimmer: 0
+        shaderLitMode: 0
+        enableDepthPrepassWithDeferredRendering: 0
+        enableTransparentPrepass: 0
+        enableMotionVectors: 0
+        enableObjectMotionVectors: 0
+        enableDecals: 0
+        enableRoughRefraction: 0
+        enableTransparentPostpass: 0
+        enableDistortion: 0
+        enablePostprocess: 0
+        enableOpaqueObjects: 0
+        enableTransparentObjects: 0
+        enableRealtimePlanarReflection: 0
+        enableMSAA: 0
+        enableAsyncCompute: 0
+        runLightListAsync: 0
+        runSSRAsync: 0
+        runSSAOAsync: 0
+        runContactShadowsAsync: 0
+        runVolumeVoxelizationAsync: 0
+        lightLoopSettings:
+          overrides: 0
+          enableDeferredTileAndCluster: 0
+          enableComputeLightEvaluation: 0
+          enableComputeLightVariants: 0
+          enableComputeMaterialVariants: 0
+          enableFptlForForwardOpaque: 0
+          enableBigTilePrepass: 0
+          isFptlEnabled: 0
+    roughReflections: 1
+    distanceBasedRoughness: 0
+  m_ProbeSettingsOverride:
+    probe: 0
+    camera:
+      camera: 0
+  m_ProxyVolume: {fileID: 0}
+  m_BakedTexture: {fileID: 0}
+  m_CustomTexture: {fileID: 0}
+  m_BakedRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_CustomRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_EditorOnlyData: 0
+  m_HDProbeVersion: 3
+  m_ObsoleteInfiniteProjection: 1
+  m_ObsoleteInfluenceVolume:
+    m_Shape: 0
+    m_BoxSize: {x: 10, y: 10, z: 10}
+    m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+    m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+    m_SphereRadius: 3
+    m_SphereBlendDistance: 0
+    m_SphereBlendNormalDistance: 0
+    m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendDistance: 0
+    m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendNormalDistance: 0
+    m_EditorAdvancedModeEnabled: 0
+    m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+    m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+    m_Version: 1
+    m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+    m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+  m_ObsoleteMultiplier: 1
+  m_ObsoleteWeight: 1
+  m_ObsoleteMode: 0
+  m_ObsoleteLightLayers: 1
+  m_ObsoleteCaptureSettings:
+    overrides: 0
+    clearColorMode: 0
+    backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+    clearDepth: 1
+    cullingMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useOcclusionCulling: 1
+    volumeLayerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    volumeAnchorOverride: {fileID: 0}
+    projection: 0
+    nearClipPlane: 0.3
+    farClipPlane: 1000
+    fieldOfView: 90
+    orthographicSize: 5
+    renderingPath: 0
+    shadowDistance: 100
+  m_LocalReferencePosition: {x: 0, y: 0.99999994, z: 0.000000059604645}
+  m_PlanarProbeVersion: 7
+  m_ObsoleteCaptureNearPlane: 0.3
+  m_ObsoleteCaptureFarPlane: 1000
+  m_ObsoleteOverrideFieldOfView: 0
+  m_ObsoleteFieldOfViewOverride: 90
+--- !u!4 &203042181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203042179}
+  m_LocalRotation: {x: -0.7071068, y: 0.00000021606681, z: 0.00000027264707, w: 0.70710677}
+  m_LocalPosition: {x: -3.35, y: 1.9009997, z: 3.992003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &211835358
 GameObject:
   m_ObjectHideFlags: 0
@@ -6975,6 +7374,405 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.025
   m_ShadowAngle: 0
+--- !u!1 &914631781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914631783}
+  - component: {fileID: 914631782}
+  m_Layer: 0
+  m_Name: Planar Reflection (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &914631782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914631781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ee7c3a3b205a14a94094d01ff91d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ProbeSettings:
+    frustum:
+      fieldOfViewMode: 1
+      fixedValue: 55
+      automaticScale: 1
+      viewerScale: 1
+    type: 1
+    mode: 1
+    realtimeMode: 0
+    lighting:
+      multiplier: 1
+      weight: 1
+      lightLayer: 1
+      fadeDistance: 10000
+      rangeCompressionFactor: 1
+    influence:
+      m_Shape: 0
+      m_BoxSize: {x: 2.2150517, y: 0.19148302, z: 1.9877975}
+      m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+      m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 0.6140579
+      m_SphereBlendDistance: 0
+      m_SphereBlendNormalDistance: 0
+      m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendDistance: 0
+      m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendNormalDistance: 0
+      m_EditorAdvancedModeEnabled: 0
+      m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+      m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+      m_Version: 1
+      m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+      m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+    proxy:
+      m_Shape: 0
+      m_BoxSize: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 1
+      m_CSVersion: 1
+      m_ObsoleteSphereInfiniteProjection: 0
+      m_ObsoleteBoxInfiniteProjection: 0
+    proxySettings:
+      useInfluenceVolumeAsProxyVolume: 0
+      capturePositionProxySpace: {x: 0, y: 0, z: 0}
+      captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
+      mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
+      mirrorRotationProxySpace: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
+    resolutionScalable:
+      m_Override: 512
+      m_UseOverride: 1
+      m_Level: 2
+    resolution: 0
+    cameraSettings:
+      customRenderingSettings: 0
+      renderingPathCustomFrameSettings:
+        bitDatas:
+          data1: 72198262773251917
+          data2: 13763000468760363032
+        lodBias: 1
+        lodBiasMode: 0
+        lodBiasQualityLevel: 0
+        maximumLODLevel: 0
+        maximumLODLevelMode: 0
+        maximumLODLevelQualityLevel: 0
+        sssQualityMode: 0
+        sssQualityLevel: 0
+        sssCustomSampleBudget: 20
+        materialQuality: 0
+      renderingPathCustomFrameSettingsOverrideMask:
+        mask:
+          data1: 0
+          data2: 0
+      bufferClearing:
+        clearColorMode: 0
+        backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+        clearDepth: 1
+      volumes:
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 1
+        anchorOverride: {fileID: 0}
+      frustum:
+        mode: 0
+        aspect: 1
+        farClipPlaneRaw: 1000
+        nearClipPlaneRaw: 0.3
+        fieldOfView: 90
+        projectionMatrix:
+          e00: 1
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 1
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 1
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+      culling:
+        useOcclusionCulling: 1
+        cullingMask:
+          serializedVersion: 2
+          m_Bits: 2147483647
+        sceneCullingMaskOverride: 0
+      invertFaceCulling: 0
+      flipYMode: 0
+      probeLayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      defaultFrameSettings: 0
+      m_ObsoleteRenderingPath: 0
+      m_ObsoleteFrameSettings:
+        overrides: 0
+        enableShadow: 0
+        enableContactShadows: 0
+        enableShadowMask: 0
+        enableSSR: 0
+        enableSSAO: 0
+        enableSubsurfaceScattering: 0
+        enableTransmission: 0
+        enableAtmosphericScattering: 0
+        enableVolumetrics: 0
+        enableReprojectionForVolumetrics: 0
+        enableLightLayers: 0
+        enableExposureControl: 1
+        diffuseGlobalDimmer: 0
+        specularGlobalDimmer: 0
+        shaderLitMode: 0
+        enableDepthPrepassWithDeferredRendering: 0
+        enableTransparentPrepass: 0
+        enableMotionVectors: 0
+        enableObjectMotionVectors: 0
+        enableDecals: 0
+        enableRoughRefraction: 0
+        enableTransparentPostpass: 0
+        enableDistortion: 0
+        enablePostprocess: 0
+        enableOpaqueObjects: 0
+        enableTransparentObjects: 0
+        enableRealtimePlanarReflection: 0
+        enableMSAA: 0
+        enableAsyncCompute: 0
+        runLightListAsync: 0
+        runSSRAsync: 0
+        runSSAOAsync: 0
+        runContactShadowsAsync: 0
+        runVolumeVoxelizationAsync: 0
+        lightLoopSettings:
+          overrides: 0
+          enableDeferredTileAndCluster: 0
+          enableComputeLightEvaluation: 0
+          enableComputeLightVariants: 0
+          enableComputeMaterialVariants: 0
+          enableFptlForForwardOpaque: 0
+          enableBigTilePrepass: 0
+          isFptlEnabled: 0
+    roughReflections: 1
+    distanceBasedRoughness: 0
+  m_ProbeSettingsOverride:
+    probe: 0
+    camera:
+      camera: 0
+  m_ProxyVolume: {fileID: 0}
+  m_BakedTexture: {fileID: 0}
+  m_CustomTexture: {fileID: 0}
+  m_BakedRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_CustomRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_EditorOnlyData: 0
+  m_HDProbeVersion: 3
+  m_ObsoleteInfiniteProjection: 1
+  m_ObsoleteInfluenceVolume:
+    m_Shape: 0
+    m_BoxSize: {x: 10, y: 10, z: 10}
+    m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+    m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+    m_SphereRadius: 3
+    m_SphereBlendDistance: 0
+    m_SphereBlendNormalDistance: 0
+    m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendDistance: 0
+    m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendNormalDistance: 0
+    m_EditorAdvancedModeEnabled: 0
+    m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+    m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+    m_Version: 1
+    m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+    m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+  m_ObsoleteMultiplier: 1
+  m_ObsoleteWeight: 1
+  m_ObsoleteMode: 0
+  m_ObsoleteLightLayers: 1
+  m_ObsoleteCaptureSettings:
+    overrides: 0
+    clearColorMode: 0
+    backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+    clearDepth: 1
+    cullingMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useOcclusionCulling: 1
+    volumeLayerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    volumeAnchorOverride: {fileID: 0}
+    projection: 0
+    nearClipPlane: 0.3
+    farClipPlane: 1000
+    fieldOfView: 90
+    orthographicSize: 5
+    renderingPath: 0
+    shadowDistance: 100
+  m_LocalReferencePosition: {x: 0, y: 0.99999994, z: 0.000000059604645}
+  m_PlanarProbeVersion: 7
+  m_ObsoleteCaptureNearPlane: 0.3
+  m_ObsoleteCaptureFarPlane: 1000
+  m_ObsoleteOverrideFieldOfView: 0
+  m_ObsoleteFieldOfViewOverride: 90
+--- !u!4 &914631783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914631781}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: 1.863, y: 1.9006118, z: 1.523}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &928217623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8497,6 +9295,405 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.025
   m_ShadowAngle: 0
+--- !u!1 &1192168297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192168299}
+  - component: {fileID: 1192168298}
+  m_Layer: 0
+  m_Name: Planar Reflection (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1192168298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192168297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ee7c3a3b205a14a94094d01ff91d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ProbeSettings:
+    frustum:
+      fieldOfViewMode: 1
+      fixedValue: 55
+      automaticScale: 1
+      viewerScale: 1
+    type: 1
+    mode: 1
+    realtimeMode: 0
+    lighting:
+      multiplier: 1
+      weight: 1
+      lightLayer: 1
+      fadeDistance: 10000
+      rangeCompressionFactor: 1
+    influence:
+      m_Shape: 0
+      m_BoxSize: {x: 2.2150517, y: 0.19148302, z: 1.9877975}
+      m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+      m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 0.6140579
+      m_SphereBlendDistance: 0
+      m_SphereBlendNormalDistance: 0
+      m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendDistance: 0
+      m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendNormalDistance: 0
+      m_EditorAdvancedModeEnabled: 0
+      m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+      m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+      m_Version: 1
+      m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+      m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+    proxy:
+      m_Shape: 0
+      m_BoxSize: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 1
+      m_CSVersion: 1
+      m_ObsoleteSphereInfiniteProjection: 0
+      m_ObsoleteBoxInfiniteProjection: 0
+    proxySettings:
+      useInfluenceVolumeAsProxyVolume: 0
+      capturePositionProxySpace: {x: 0, y: 0, z: 0}
+      captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
+      mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
+      mirrorRotationProxySpace: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
+    resolutionScalable:
+      m_Override: 512
+      m_UseOverride: 1
+      m_Level: 2
+    resolution: 0
+    cameraSettings:
+      customRenderingSettings: 0
+      renderingPathCustomFrameSettings:
+        bitDatas:
+          data1: 72198262773251917
+          data2: 13763000468760363032
+        lodBias: 1
+        lodBiasMode: 0
+        lodBiasQualityLevel: 0
+        maximumLODLevel: 0
+        maximumLODLevelMode: 0
+        maximumLODLevelQualityLevel: 0
+        sssQualityMode: 0
+        sssQualityLevel: 0
+        sssCustomSampleBudget: 20
+        materialQuality: 0
+      renderingPathCustomFrameSettingsOverrideMask:
+        mask:
+          data1: 0
+          data2: 0
+      bufferClearing:
+        clearColorMode: 0
+        backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+        clearDepth: 1
+      volumes:
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 1
+        anchorOverride: {fileID: 0}
+      frustum:
+        mode: 0
+        aspect: 1
+        farClipPlaneRaw: 1000
+        nearClipPlaneRaw: 0.3
+        fieldOfView: 90
+        projectionMatrix:
+          e00: 1
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 1
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 1
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+      culling:
+        useOcclusionCulling: 1
+        cullingMask:
+          serializedVersion: 2
+          m_Bits: 2147483647
+        sceneCullingMaskOverride: 0
+      invertFaceCulling: 0
+      flipYMode: 0
+      probeLayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      defaultFrameSettings: 0
+      m_ObsoleteRenderingPath: 0
+      m_ObsoleteFrameSettings:
+        overrides: 0
+        enableShadow: 0
+        enableContactShadows: 0
+        enableShadowMask: 0
+        enableSSR: 0
+        enableSSAO: 0
+        enableSubsurfaceScattering: 0
+        enableTransmission: 0
+        enableAtmosphericScattering: 0
+        enableVolumetrics: 0
+        enableReprojectionForVolumetrics: 0
+        enableLightLayers: 0
+        enableExposureControl: 1
+        diffuseGlobalDimmer: 0
+        specularGlobalDimmer: 0
+        shaderLitMode: 0
+        enableDepthPrepassWithDeferredRendering: 0
+        enableTransparentPrepass: 0
+        enableMotionVectors: 0
+        enableObjectMotionVectors: 0
+        enableDecals: 0
+        enableRoughRefraction: 0
+        enableTransparentPostpass: 0
+        enableDistortion: 0
+        enablePostprocess: 0
+        enableOpaqueObjects: 0
+        enableTransparentObjects: 0
+        enableRealtimePlanarReflection: 0
+        enableMSAA: 0
+        enableAsyncCompute: 0
+        runLightListAsync: 0
+        runSSRAsync: 0
+        runSSAOAsync: 0
+        runContactShadowsAsync: 0
+        runVolumeVoxelizationAsync: 0
+        lightLoopSettings:
+          overrides: 0
+          enableDeferredTileAndCluster: 0
+          enableComputeLightEvaluation: 0
+          enableComputeLightVariants: 0
+          enableComputeMaterialVariants: 0
+          enableFptlForForwardOpaque: 0
+          enableBigTilePrepass: 0
+          isFptlEnabled: 0
+    roughReflections: 1
+    distanceBasedRoughness: 0
+  m_ProbeSettingsOverride:
+    probe: 0
+    camera:
+      camera: 0
+  m_ProxyVolume: {fileID: 0}
+  m_BakedTexture: {fileID: 0}
+  m_CustomTexture: {fileID: 0}
+  m_BakedRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_CustomRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_EditorOnlyData: 0
+  m_HDProbeVersion: 3
+  m_ObsoleteInfiniteProjection: 1
+  m_ObsoleteInfluenceVolume:
+    m_Shape: 0
+    m_BoxSize: {x: 10, y: 10, z: 10}
+    m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+    m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+    m_SphereRadius: 3
+    m_SphereBlendDistance: 0
+    m_SphereBlendNormalDistance: 0
+    m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendDistance: 0
+    m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendNormalDistance: 0
+    m_EditorAdvancedModeEnabled: 0
+    m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+    m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+    m_Version: 1
+    m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+    m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+  m_ObsoleteMultiplier: 1
+  m_ObsoleteWeight: 1
+  m_ObsoleteMode: 0
+  m_ObsoleteLightLayers: 1
+  m_ObsoleteCaptureSettings:
+    overrides: 0
+    clearColorMode: 0
+    backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+    clearDepth: 1
+    cullingMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useOcclusionCulling: 1
+    volumeLayerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    volumeAnchorOverride: {fileID: 0}
+    projection: 0
+    nearClipPlane: 0.3
+    farClipPlane: 1000
+    fieldOfView: 90
+    orthographicSize: 5
+    renderingPath: 0
+    shadowDistance: 100
+  m_LocalReferencePosition: {x: 0, y: 0.99999994, z: 0.000000059604645}
+  m_PlanarProbeVersion: 7
+  m_ObsoleteCaptureNearPlane: 0.3
+  m_ObsoleteCaptureFarPlane: 1000
+  m_ObsoleteOverrideFieldOfView: 0
+  m_ObsoleteFieldOfViewOverride: 90
+--- !u!4 &1192168299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192168297}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: 1.863, y: 1.9006118, z: -2.2516315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &1210431152
 GameObject:
   m_ObjectHideFlags: 0
@@ -9710,7 +10907,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   - {fileID: 2100000, guid: 342a7e3c82065064fb29aa634ec92304, type: 2}
-  - {fileID: 2100000, guid: f4eda345da0ff1b4c9869c225c00a040, type: 2}
+  - {fileID: 2100000, guid: 055839cf6f0c606418661b3a61c2b33a, type: 2}
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -10168,7 +11365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 16
+  m_Intensity: 15
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -10291,8 +11488,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 8192
-  m_Range: 5
+  m_Intensity: 4096
+  m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -10336,7 +11533,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 10}
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -10367,7 +11564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454962020}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 3.290165, y: -0.08259851, z: -3.4326527}
+  m_LocalPosition: {x: 3.3822303, y: -0.08259851, z: -3.432654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1524253681}
@@ -10395,7 +11592,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   - {fileID: 2100000, guid: 342a7e3c82065064fb29aa634ec92304, type: 2}
-  - {fileID: 2100000, guid: f4eda345da0ff1b4c9869c225c00a040, type: 2}
+  - {fileID: 2100000, guid: 055839cf6f0c606418661b3a61c2b33a, type: 2}
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -10562,7 +11759,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   - {fileID: 2100000, guid: 342a7e3c82065064fb29aa634ec92304, type: 2}
-  - {fileID: 2100000, guid: f4eda345da0ff1b4c9869c225c00a040, type: 2}
+  - {fileID: 2100000, guid: 055839cf6f0c606418661b3a61c2b33a, type: 2}
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -11830,6 +13027,405 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709032849}
   m_Mesh: {fileID: -5269816056853106933, guid: 7d0181847e8b8c042a3cda5b7cd33f50, type: 3}
+--- !u!1 &1724380618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724380620}
+  - component: {fileID: 1724380619}
+  m_Layer: 0
+  m_Name: Planar Reflection (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1724380619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724380618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ee7c3a3b205a14a94094d01ff91d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ProbeSettings:
+    frustum:
+      fieldOfViewMode: 1
+      fixedValue: 90
+      automaticScale: 1
+      viewerScale: 1
+    type: 1
+    mode: 1
+    realtimeMode: 0
+    lighting:
+      multiplier: 1
+      weight: 1
+      lightLayer: 1
+      fadeDistance: 10000
+      rangeCompressionFactor: 1
+    influence:
+      m_Shape: 0
+      m_BoxSize: {x: 1.1338376, y: 0.19148302, z: 1.9877975}
+      m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+      m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 0.6140579
+      m_SphereBlendDistance: 0
+      m_SphereBlendNormalDistance: 0
+      m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendDistance: 0
+      m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+      m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+      m_EditorSimplifiedModeBlendNormalDistance: 0
+      m_EditorAdvancedModeEnabled: 0
+      m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+      m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+      m_Version: 1
+      m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+      m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+    proxy:
+      m_Shape: 0
+      m_BoxSize: {x: 1, y: 1, z: 1}
+      m_SphereRadius: 1
+      m_CSVersion: 1
+      m_ObsoleteSphereInfiniteProjection: 0
+      m_ObsoleteBoxInfiniteProjection: 0
+    proxySettings:
+      useInfluenceVolumeAsProxyVolume: 0
+      capturePositionProxySpace: {x: 0, y: 0, z: 0}
+      captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
+      mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
+      mirrorRotationProxySpace: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
+    resolutionScalable:
+      m_Override: 512
+      m_UseOverride: 1
+      m_Level: 2
+    resolution: 0
+    cameraSettings:
+      customRenderingSettings: 0
+      renderingPathCustomFrameSettings:
+        bitDatas:
+          data1: 72198262773251917
+          data2: 13763000468760363032
+        lodBias: 1
+        lodBiasMode: 0
+        lodBiasQualityLevel: 0
+        maximumLODLevel: 0
+        maximumLODLevelMode: 0
+        maximumLODLevelQualityLevel: 0
+        sssQualityMode: 0
+        sssQualityLevel: 0
+        sssCustomSampleBudget: 20
+        materialQuality: 0
+      renderingPathCustomFrameSettingsOverrideMask:
+        mask:
+          data1: 0
+          data2: 0
+      bufferClearing:
+        clearColorMode: 0
+        backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+        clearDepth: 1
+      volumes:
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 1
+        anchorOverride: {fileID: 0}
+      frustum:
+        mode: 0
+        aspect: 1
+        farClipPlaneRaw: 1000
+        nearClipPlaneRaw: 0.3
+        fieldOfView: 90
+        projectionMatrix:
+          e00: 1
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 1
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 1
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+      culling:
+        useOcclusionCulling: 1
+        cullingMask:
+          serializedVersion: 2
+          m_Bits: 2147483647
+        sceneCullingMaskOverride: 0
+      invertFaceCulling: 0
+      flipYMode: 0
+      probeLayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      defaultFrameSettings: 0
+      m_ObsoleteRenderingPath: 0
+      m_ObsoleteFrameSettings:
+        overrides: 0
+        enableShadow: 0
+        enableContactShadows: 0
+        enableShadowMask: 0
+        enableSSR: 0
+        enableSSAO: 0
+        enableSubsurfaceScattering: 0
+        enableTransmission: 0
+        enableAtmosphericScattering: 0
+        enableVolumetrics: 0
+        enableReprojectionForVolumetrics: 0
+        enableLightLayers: 0
+        enableExposureControl: 1
+        diffuseGlobalDimmer: 0
+        specularGlobalDimmer: 0
+        shaderLitMode: 0
+        enableDepthPrepassWithDeferredRendering: 0
+        enableTransparentPrepass: 0
+        enableMotionVectors: 0
+        enableObjectMotionVectors: 0
+        enableDecals: 0
+        enableRoughRefraction: 0
+        enableTransparentPostpass: 0
+        enableDistortion: 0
+        enablePostprocess: 0
+        enableOpaqueObjects: 0
+        enableTransparentObjects: 0
+        enableRealtimePlanarReflection: 0
+        enableMSAA: 0
+        enableAsyncCompute: 0
+        runLightListAsync: 0
+        runSSRAsync: 0
+        runSSAOAsync: 0
+        runContactShadowsAsync: 0
+        runVolumeVoxelizationAsync: 0
+        lightLoopSettings:
+          overrides: 0
+          enableDeferredTileAndCluster: 0
+          enableComputeLightEvaluation: 0
+          enableComputeLightVariants: 0
+          enableComputeMaterialVariants: 0
+          enableFptlForForwardOpaque: 0
+          enableBigTilePrepass: 0
+          isFptlEnabled: 0
+    roughReflections: 1
+    distanceBasedRoughness: 0
+  m_ProbeSettingsOverride:
+    probe: 0
+    camera:
+      camera: 0
+  m_ProxyVolume: {fileID: 0}
+  m_BakedTexture: {fileID: 0}
+  m_CustomTexture: {fileID: 0}
+  m_BakedRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_CustomRenderData:
+    m_WorldToCameraRHS:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_ProjectionMatrix:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+    m_CapturePosition: {x: 0, y: 0, z: 0}
+    m_CaptureRotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FieldOfView: 0
+    m_Aspect: 0
+  m_EditorOnlyData: 0
+  m_HDProbeVersion: 3
+  m_ObsoleteInfiniteProjection: 1
+  m_ObsoleteInfluenceVolume:
+    m_Shape: 0
+    m_BoxSize: {x: 10, y: 10, z: 10}
+    m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
+    m_BoxSideFadeNegative: {x: 1, y: 1, z: 1}
+    m_SphereRadius: 3
+    m_SphereBlendDistance: 0
+    m_SphereBlendNormalDistance: 0
+    m_EditorAdvancedModeBlendDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendDistance: 0
+    m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
+    m_EditorAdvancedModeBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
+    m_EditorSimplifiedModeBlendNormalDistance: 0
+    m_EditorAdvancedModeEnabled: 0
+    m_EditorAdvancedModeFaceFadePositive: {x: 1, y: 1, z: 1}
+    m_EditorAdvancedModeFaceFadeNegative: {x: 1, y: 1, z: 1}
+    m_Version: 1
+    m_ObsoleteSphereBaseOffset: {x: 0, y: 0, z: 0}
+    m_ObsoleteOffset: {x: 0, y: 0, z: 0}
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+  m_ObsoleteMultiplier: 1
+  m_ObsoleteWeight: 1
+  m_ObsoleteMode: 0
+  m_ObsoleteLightLayers: 1
+  m_ObsoleteCaptureSettings:
+    overrides: 0
+    clearColorMode: 0
+    backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+    clearDepth: 1
+    cullingMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useOcclusionCulling: 1
+    volumeLayerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    volumeAnchorOverride: {fileID: 0}
+    projection: 0
+    nearClipPlane: 0.3
+    farClipPlane: 1000
+    fieldOfView: 90
+    orthographicSize: 5
+    renderingPath: 0
+    shadowDistance: 100
+  m_LocalReferencePosition: {x: 0, y: 0.99999994, z: 0.000000059604645}
+  m_PlanarProbeVersion: 7
+  m_ObsoleteCaptureNearPlane: 0.3
+  m_ObsoleteCaptureFarPlane: 1000
+  m_ObsoleteOverrideFieldOfView: 0
+  m_ObsoleteFieldOfViewOverride: 90
+--- !u!4 &1724380620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724380618}
+  m_LocalRotation: {x: -0.7071068, y: 0.00000021606681, z: 0.00000027264707, w: 0.70710677}
+  m_LocalPosition: {x: 0.84, y: 1.901, z: 3.992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1727855772
 GameObject:
   m_ObjectHideFlags: 0
@@ -12766,7 +14362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810184596}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 3.2795658, y: -0.08259851, z: 0.3338498}
+  m_LocalPosition: {x: 3.38223, y: -0.08259851, z: 0.3338498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1524253681}
@@ -12794,7 +14390,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   - {fileID: 2100000, guid: 342a7e3c82065064fb29aa634ec92304, type: 2}
-  - {fileID: 2100000, guid: f4eda345da0ff1b4c9869c225c00a040, type: 2}
+  - {fileID: 2100000, guid: 055839cf6f0c606418661b3a61c2b33a, type: 2}
   - {fileID: 2100000, guid: 1278d69f05484494abbf17dfc8bdd52e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
